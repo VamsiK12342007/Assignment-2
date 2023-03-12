@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Interrupted Marriage (official site)</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Vamsi Kurli">
+    <meta name="description" content="Interrupted Marriage (offical website)">
+    <meta name="keywords" content="HTML,CSS,Feature film, film festival">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="Stylesheet/stylesheet.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster">
+    <script>
+        function toggleMenu() {
+            var nav = document.getElementById('mnav');
+            nav.classList.toggle('expanded');
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="flexbox MainLogo">
+        <img src="Images/Interrtupted Marriage  - Logo 1.png" alt="film Logo" title="Created by Vamsi Kurli">
+    </div>
+
+    <header>
+        <nav class="mnav" id="mnav">
+            <li id="mnavIcon" class="mnavIcon" onclick="toggleMenu()">
+                <a href=#>
+                    <i class="fa fa-bars"></i>
+                </a>
+            </li>
+            <a class="pageIcons" href="index.html">Home</a>
+            <a class="pageIcons" href="About.html">About the movie</a>
+            <a class="pageIcons" href="Cast & Crew.html">Cast & Crew</a>
+            <a class="pageIcons" href="Contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <h1>Contact us</h1>
+    <div class="flexbox" id="Contactlogo">
+        <img src="Images/Interrtupted Marriage  - Logo 1.png" alt=" film Logo" title="Created by Vamsi Kurli">
+    </div>
+    <div>
+        <p>Thank you so much for visiting us. If you wish to contact the makers of this film, please use the form below
+            to contact us. We would love to
+            hear from our fans about the film. Thank You.</p>
+    </div>
+
+    <h2>Contact Form</h2>
+
+    <div>
+        <form class="ContactForm">
+            <div>
+                <label for="fname">First Name</label>
+                <input type="text" name="First">
+            </div>
+
+            <div>
+                <label for="fname">Last Name</label>
+                <input type="text" name="Last">
+            </div>
+
+            <div>
+                <label for="fname">Email</label>
+                <input type="text" name="Email">
+            </div>
+
+            <div>
+                <label for="fname">Phone Number</label>
+                <input type="text" name="Phone Number">
+            </div>
+
+            <div>
+                <label for="fname">Message</label>
+                <input id="messageinput" type="text" name="Message">
+            </div>
+
+            <div>
+                <input type="submit" class="Button" value="Submit">
+            </div>
+        </form>
+
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2023 Interrupted Marriage (Official Site)</p>
+    </footer>
+
+</body>
+</html>
